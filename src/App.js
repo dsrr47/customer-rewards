@@ -1,23 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect, useState } from "react";
+import Customer from "./components/Customer";
 
 function App() {
+  const [data, setData] = useState({});
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  const fetchData = () => {
+    fetch("data.json")
+      .then((responose) => responose.json())
+      .then((json) => {
+        setData(json);
+        setLoading(false);
+      })
+      .catch((error) => {
+        console.log(error);
+        setLoading(false);
+      });
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="bg-gray-300">
+      <header className="bg-purple-900">
+        <h1 className="text-center text-4xl font-black p-5 text-gray-100">
+          Customer Rewards
+        </h1>
       </header>
+      {loading ? (
+        <div>Data Loading...</div>
+      ) : (
+        data.customers.map((customer) => (
+          <div className="flex justify-center" key={customer._id}>
+            <Customer
+              name={customer.name}
+              email={customer.email}
+              transactions={customer.transaction}
+            />
+          </div>
+        ))
+      )}
     </div>
   );
 }

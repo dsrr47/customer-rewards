@@ -1,0 +1,222 @@
+{
+  "customers": [
+    {
+      "_id": "5ea896b98a0d147994c3252e",
+      "name": "Maggie Reeves",
+      "email": "maggiereeves@urles.com",
+      "phone": "+1 (945) 575-3819",
+      "address": "290 Willmohr Street, Ruckersville, New Hampshire, 9065",
+      "transaction": [
+        {
+          "id": "12",
+          "date": "2023-01-12",
+          "amount": "352.23"
+        },
+        {
+          "id": "14",
+          "date": "2023-02-17",
+          "amount": "58.65"
+        },
+        {
+          "id": "13",
+          "date": "2023-03-07",
+          "amount": "182.04"
+        },
+        {
+          "id": "11",
+          "date": "2023-01-21",
+          "amount": "173.96"
+        }
+      ]
+    },
+    {
+      "_id": "5ea896b9eab0cf048aaa2339",
+      "name": "Alma Vega",
+      "email": "almavega@urles.com",
+      "phone": "+1 (904) 565-2214",
+      "address": "182 Remsen Avenue, Southmont, Ohio, 8844",
+      "transaction": [
+        {
+          "id": "21",
+          "date": "2023-01-02",
+          "amount": "13.96"
+        },
+        {
+          "id": "22",
+          "date": "2023-01-05",
+          "amount": "43.04'"
+        },
+        {
+          "id": "23",
+          "date": "2023-03-07",
+          "amount": "34.65"
+        },
+        {
+          "id": "24",
+          "date": "2023-03-2",
+          "amount": "2.23"
+        }
+      ]
+    },
+    {
+      "_id": "5ea896b9e82ddf8d9b40ce95",
+      "name": "Finch Torres",
+      "email": "finchtorres@urles.com",
+      "phone": "+1 (870) 477-3411",
+      "address": "253 Woodrow Court, Interlochen, South Carolina, 186",
+      "transaction": [
+        {
+          "id": "31",
+          "date": "2023-02-02",
+          "amount": "123.96"
+        },
+        {
+          "id": "32",
+          "date": "2023-02-17",
+          "amount": "51.65"
+        },
+        {
+          "id": "33",
+          "date": "2023-01-27",
+          "amount": "352.23"
+        },
+        {
+          "id": "34",
+          "date": "2023-03-05",
+          "amount": "120.00"
+        }
+      ]
+    },
+    {
+      "_id": "5ea896b9ef70650fcf07c1ac",
+      "name": "Leonor Horne",
+      "email": "leonorhorne@urles.com",
+      "phone": "+1 (891) 498-2756",
+      "address": "634 Grafton Street, Albany, North Carolina, 3121",
+      "transaction": [
+        {
+          "id": "41",
+          "date": "2023-01-02",
+          "amount": "34.95"
+        },
+        {
+          "id": "42",
+          "date": "2023-03-01",
+          "amount": "92.93"
+        },
+        {
+          "id": "43",
+          "date": "2023-02-05",
+          "amount": "182.04"
+        },
+        {
+          "id": "44",
+          "date": "2023-03-04",
+          "amount": "258.56"
+        }
+      ]
+    },
+    {
+      "_id": "5ea896b91e7cf2c1a92adc7a",
+      "name": "Katie Dunn",
+      "email": "katiedunn@urles.com",
+      "phone": "+1 (950) 406-3435",
+      "address": "291 Losee Terrace, Mathews, Arkansas, 3620",
+      "transaction": [
+        {
+          "id": "51",
+          "date": "2023-02-02",
+          "amount": "73.96"
+        },
+        {
+          "id": "52",
+          "date": "2023-01-27",
+          "amount": "92.23"
+        },
+        {
+          "id": "53",
+          "date": "2023-03-05",
+          "amount": "122.04"
+        },
+        {
+          "id": "54",
+          "date": "2023-01-10",
+          "amount": "158.65"
+        },
+        {
+          "id": "545",
+          "date": "2022-01-10",
+          "amount": "158.65"
+        }
+      ]
+    },
+    {
+      "_id": "5ea896b9be2f331074d541a1",
+      "name": "Olive Hoover",
+      "email": "olivehoover@urles.com",
+      "phone": "+1 (868) 439-2067",
+      "address": "249 Hinckley Place, Sugartown, Delaware, 278",
+      "transaction": [
+        {
+          "id": "61",
+          "date": "2023-03-02",
+          "amount": "78.96"
+        },
+        {
+          "id": "62",
+          "date": "2023-01-07",
+          "amount": "152.23"
+        },
+        {
+          "id": "625",
+          "date": "2022-01-07",
+          "amount": "152.23"
+        },
+        {
+          "id": "63",
+          "date": "2023-02-08",
+          "amount": "142.04"
+        },
+        {
+          "id": "64",
+          "date": "2023-02-11",
+          "amount": "138.05"
+        }
+      ]
+    },
+    {
+      "_id": "5ea896b9559eb4330b384c99",
+      "name": "Atkins Calderon",
+      "email": "atkinscalderon@urles.com",
+      "phone": "+1 (894) 419-2694",
+      "address": "917 Elmwood Avenue, Grayhawk, California, 2974",
+      "transaction": [
+        {
+          "id": "71",
+          "date": "2023-01-31",
+          "amount": "193.96"
+        },
+        {
+          "id": "72",
+          "date": "2023-02-27",
+          "amount": "92.45"
+        },
+        {
+          "id": "73",
+          "date": "2023-03-02",
+          "amount": "182.24"
+        },
+        {
+          "id": "75",
+          "date": "2022-12-02",
+          "amount": "182.24"
+        },
+        {
+          "id": "74",
+          "date": "2023-01-24",
+          "amount": "128.95"
+        }
+      ]
+    }
+  ]
+}
