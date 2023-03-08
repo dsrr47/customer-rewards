@@ -9,9 +9,9 @@ export default function MonthlyTransactions({
 }) {
   return (
     <div className="my-8 w-full">
-      <div className="flex justify-between bg-purple-600 border-b rounded items-center p-2">
-        <h4 className="text-base text-purple-100 font-semibold">{month}</h4>
-        <h4 className="text-base text-purple-100 font-semibold">
+      <div className="flex justify-between bg-cyan-600 border-b rounded items-center p-2">
+        <h4 className="text-base text-cyan-100 font-semibold">{month}</h4>
+        <h4 className="text-base text-cyan-100 font-semibold">
           Monthly Rewards:{" "}
           {calculateTotalRewards(monthlyTransactions, calculateReward)}
         </h4>
