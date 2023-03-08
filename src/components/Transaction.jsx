@@ -3,7 +3,7 @@ export default function Transaction({ amount, date, reward }) {
   const newDate = moment(date).format("MMMM Do");
 
   return (
-    <div className="flex w-full justify-between border-b items-center my-2 pb-2 px-4 text-gray-600">
+    <div className="flex w-full justify-between border-b items-center my-2 pb-2 px-4 text-gray-700">
       <p>{newDate}</p>
       <div className="text-right">
         <p>${amount}</p>

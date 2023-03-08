@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div className="bg-gray-300">
-      <header className="bg-purple-900">
+      <header className="bg-cyan-600">
         <h1 className="text-center text-4xl font-black p-5 text-gray-100">
           Customer Rewards
         </h1>

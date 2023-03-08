@@ -29,35 +29,7 @@
         }
       ]
     },
-    {
-      "_id": "5ea896b9eab0cf048aaa2339",
-      "name": "Alma Vega",
-      "email": "almavega@urles.com",
-      "phone": "+1 (904) 565-2214",
-      "address": "182 Remsen Avenue, Southmont, Ohio, 8844",
-      "transaction": [
-        {
-          "id": "21",
-          "date": "2023-01-02",
-          "amount": "13.96"
-        },
-        {
-          "id": "22",
-          "date": "2023-01-05",
-          "amount": "43.04'"
-        },
-        {
-          "id": "23",
-          "date": "2023-03-07",
-          "amount": "34.65"
-        },
-        {
-          "id": "24",
-          "date": "2023-03-2",
-          "amount": "2.23"
-        }
-      ]
-    },
+
     {
       "_id": "5ea896b9e82ddf8d9b40ce95",
       "name": "Finch Torres",
